@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document_standards>
+    <font>
+        <theme_font>TH Sarabun New</theme_font>
+    </font>
+
+    <font_sizes>
+        <main_heading>18</main_heading>         <!-- หัวข้อหลัก เช่น บทที่ 1, สารบัญ -->
+        <content>14</content>                   <!-- เนื้อหาทั่วไป -->
+        <sub_heading>16</sub_heading>           <!-- หัวข้อย่อย เช่น 1.1, 1.2 -->
+        <cover_title>18</cover_title>           <!-- ชื่อเรื่องในปก -->
+        <cover_info>14</cover_info>             <!-- ข้อมูลในปก เช่น ชื่อนักศึกษา -->
+        <cover_cs_year>26</cover_cs_year>       <!-- CS/IT และปีการศึกษาในปก -->
+        <cover_project_title>20</cover_project_title>  <!-- ชื่อโครงงานในปก -->
+        <cover_author_info>18</cover_author_info>       <!-- ข้อมูลผู้จัดทำในปก -->
+        <cover_department_info>16</cover_department_info> <!-- ข้อมูลสาขาวิชาในปก -->
+    </font_sizes>
+
+    <formatting>
+        <main_heading_bold>true</main_heading_bold>     <!-- หัวข้อหลักต้องเป็น Bold -->
+        <sub_heading_bold>true</sub_heading_bold>       <!-- หัวข้อย่อยต้องเป็น Bold -->
+        <content_bold>false</content_bold>              <!-- เนื้อหาเป็น Regular -->
+        <cover_title_bold>true</cover_title_bold>       <!-- ชื่อเรื่องในปกเป็น Bold -->
+        <cover_cs_year_bold>true</cover_cs_year_bold>   <!-- CS/IT ในปกเป็น Bold -->
+        <cover_project_title_bold>true</cover_project_title_bold> <!-- ชื่อโครงงานในปกเป็น Bold -->
+    </formatting>
+
+    <indentation>
+        <paragraph_indent>true</paragraph_indent>        <!-- เนื้อหาต้องมีการเยื้อง -->
+        <sub_heading_indent>false</sub_heading_indent>   <!-- หัวข้อย่อยไม่เยื้อง -->
+        <numbered_list_indent>true</numbered_list_indent> <!-- รายการหมายเลขต้องเยื้อง -->
+    </indentation>
+
+    <alignment>
+        <cover_center>true</cover_center>               <!-- ปกต้องจัดกึ่งกลาง -->
+        <main_heading_left>true</main_heading_left>     <!-- หัวข้อหลักชิดซ้าย -->
+        <content_justify>false</content_justify>        <!-- ปิดการตรวจสอบ Justify เนื่องจากมีปัญหา -->
+    </alignment>
+
+    <references>
+        <picture_position>below_center</picture_position>  <!-- การอ้างอิงรูป: ด้านล่าง-กึ่งกลาง -->
+        <table_position>above_left</table_position>       <!-- การอ้างอิงตาราง: ด้านบน-ชิดซ้าย -->
+        <reference_font_size>14</reference_font_size>      <!-- ขนาดฟอนต์การอ้างอิง -->
+        <reference_bold>false</reference_bold>             <!-- การอ้างอิงไม่ต้องเป็น Bold -->
+        
+        <!-- รูปแบบการอ้างอิงที่ถูกต้อง -->
+        <valid_table_patterns>
+            <pattern>^ตารางที่\s*\d+\s</pattern>
+            <pattern>^ตารางที่\s*\d+\.\d+\s</pattern>
+            <pattern>^ตารางที่\s*\d+$</pattern>
+            <pattern>^ตารางที่\s*\d+\.\d+$</pattern>
+        </valid_table_patterns>
+        
+        <valid_picture_patterns>
+            <pattern>^ภาพที่\s*\d+\s</pattern>
+            <pattern>^ภาพที่\s*\d+\.\d+\s</pattern>
+            <pattern>^ภาพที่\s*\d+$</pattern>
+            <pattern>^ภาพที่\s*\d+\.\d+$</pattern>
+        </valid_picture_patterns>
+    </references>
+
+    <!-- กฎการตรวจสอบแต่ละส่วนของรายงาน -->
+    <section_rules>
+        <!-- ส่วนปก -->
+        <cover_sections>
+            <item>เอกสารโครงงานฉบับสมบูรณ์</item>
+            <item>คู่มือการใช้งานระบบ</item>
+            <item>CS/IT</item>
+            <item>โดย</item>
+            <item>อาจารย์ที่ปรึกษา</item>
+            <item>รายงานนี้เป็นส่วนหนึ่งของการศึกษาวิชา</item>
+            <item>สาขาวิชาวิทยาการคอมพิวเตอร์</item>
+            <item>มหาวิทยาลัยขอนแก่น</item>
+            <item>วิทยาลัยการคอมพิวเตอร์</item>
+        </cover_sections>
+
+        <!-- หัวข้อหลัก -->
+        <main_headings>
+            <item>บทคัดย่อ</item>
+            <item>Abstract</item>
+            <item>กิตติกรรมประกาศ</item>
+            <item>Acknowledgement</item>
+            <item>สารบัญ</item>
+            <item>สารบัญตาราง</item>
+            <item>สารบัญภาพ</item>
+            <item>บทที่ 1</item>
+            <item>บทที่ 2</item>
+            <item>บทที่ 3</item>
+            <item>บทที่ 4</item>
+            <item>บทที่ 5</item>
+            <item>บทนำ</item>
+            <item>งานวิจัยและทฤษฎีที่เกี่ยวข้อง</item>
+            <item>การวิเคราะห์และออกแบบระบบ</item>
+            <item>การพัฒนาระบบ</item>
+            <item>การทดสอบระบบ</item>
+            <item>สรุปและข้อเสนอแนะ</item>
+            <item>เป้าหมายและขอบเขต</item>
+            <item>ปัญหาและขอบเขต</item>
+            <item>เอกสารอ้างอิง</item>
+            <item>References</item>
+            <item>บรรณานุกรม</item>
+            <item>Bibliography</item>
+            <item>ภาคผนวก</item>
+            <item>Appendix</item>
+            <item>ประวัติผู้เขียน</item>
+        </main_headings>
+
+        <!-- หัวข้อย่อย -->
+        <sub_heading_patterns>
+            <pattern>^\d+\.\s</pattern>                 <!-- รูปแบบ 1. 2. 3. -->
+            <pattern>^\d+\.\d+\s</pattern>              <!-- รูปแบบ 1.1 1.2 -->
+            <pattern>^\d+\.\d+\.\d+\s</pattern>         <!-- รูปแบบ 1.1.1 1.2.1 -->
+            <pattern>^\(\d+\)\s</pattern>               <!-- รูปแบบ (1) (2) -->
+            <pattern>^\d+\)\s</pattern>                 <!-- รูปแบบ 1) 2) -->
+        </sub_heading_patterns>
+
+        <!-- ส่วนที่ไม่ต้องตรวจสอบการเยื้อง -->
+        <no_indent_sections>
+            <item>ปก</item>
+            <item>สารบัญ</item>
+            <item>สารบัญตาราง</item>
+            <item>สารบัญภาพ</item>
+            <item>บทคัดย่อ</item>
+            <item>Abstract</item>
+            <item>กิตติกรรมประกาศ</item>
+            <item>Acknowledgement</item>
+        </no_indent_sections>
+
+        <!-- ส่วนที่ต้องจัดกึ่งกลาง -->
+        <center_sections>
+            <item>ปก</item>
+            <item>ภาคผนวก</item>
+            <item>Appendices</item>
+        </center_sections>
+
+        <!-- รูปแบบหน้าปกตามมาตรฐาน PDF -->
+        <cover_format_rules>
+            <rule order="1" desc="CS/IT และปี" size="26" bold="true" center="true"/>
+            <rule order="2" desc="เอกสารโครงงานฉบับสมบูรณ์" size="20" bold="true" center="true"/>
+            <rule order="3" desc="ชื่อเรื่องภาษาไทย" size="20" bold="false" center="true"/>
+            <rule order="4" desc="ชื่อเรื่องภาษาอังกฤษ" size="20" bold="false" center="true"/>
+            <rule order="5" desc="โดย" size="18" bold="false" center="true"/>
+            <rule order="6" desc="รหัสและชื่อนักศึกษา" size="18" bold="false" center="true"/>
+            <rule order="7" desc="อาจารย์ที่ปรึกษา" size="18" bold="false" center="true"/>
+            <rule order="8" desc="รายละเอียดสาขาวิชา" size="16" bold="false" center="true"/>
+            <rule order="9" desc="เดือนและปี" size="16" bold="false" center="true"/>
+        </cover_format_rules>
+    </section_rules>
+
+    <!-- ข้อยกเว้นสำหรับการตรวจสอบ -->
+    <exceptions>
+        <skip_font_check>
+            <item>หมายเลขหน้า</item>
+            <item>Header</item>
+            <item>Footer</item>
+            <item>กิตติกรรมประกาศ</item>
+        </skip_font_check>
+
+        <skip_bold_check>
+            <item>Abstract</item>
+            <item>บทคัดย่อ</item>
+            <item>Acknowledgement</item>
+        </skip_bold_check>
+
+        <skip_indent_check>
+            <item>ตารางที่</item>
+            <item>ภาพที่</item>
+            <item>รูปที่</item>
+            <item>Table</item>
+            <item>Figure</item>
+        </skip_indent_check>
+    </exceptions>
+
+    <!-- การตรวจสอบเฉพาะเจาะจง -->
+    <specific_checks>
+        <!-- ตรวจสอบการใช้ระยะห่างในย่อหน้า -->
+        <spacing_rules>
+            <line_spacing>1.0</line_spacing>          <!-- ระยะห่างบรรทัด 1 เท่า -->
+            <paragraph_spacing_before>0</paragraph_spacing_before>
+            <paragraph_spacing_after>0</paragraph_spacing_after>
+        </spacing_rules>
+        
+        <!-- ตรวจสอบการเยื้อง -->
+        <indentation_rules>
+            <first_line_indent>0.5</first_line_indent>  <!-- เยื้องบรรทัดแรก 0.5 นิ้ว -->
+            <left_indent>0</left_indent>
+            <right_indent>0</right_indent>
+        </indentation_rules>
+    </specific_checks>
+</document_standards>
