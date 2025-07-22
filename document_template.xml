@@ -111,7 +111,6 @@
             <pattern>^\d+\.\d+\s</pattern>              <!-- รูปแบบ 1.1 1.2 -->
             <pattern>^\d+\.\d+\.\d+\s</pattern>         <!-- รูปแบบ 1.1.1 1.2.1 -->
             <pattern>^\(\d+\)\s</pattern>               <!-- รูปแบบ (1) (2) -->
-            <pattern>^\d+\)\s</pattern>                 <!-- รูปแบบ 1) 2) -->
         </sub_heading_patterns>
 
         <!-- ส่วนที่ไม่ต้องตรวจสอบการเยื้อง -->
