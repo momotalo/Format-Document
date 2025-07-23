@@ -345,9 +345,9 @@ class DocumentChecker:
         if sub_heading_level > 0:
             # หัวข้อย่อย - ตรวจสอบการเยื้องตามระดับ
             if sub_heading_level == 1:
-                expected_indent_inches = 0.0
-            elif sub_heading_level == 2:
                 expected_indent_inches = 0.5
+            elif sub_heading_level == 2:
+                expected_indent_inches = 1.0
             elif sub_heading_level == 3:
                 expected_indent_inches = 1.5
             else:
